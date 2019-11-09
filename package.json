@@ -12,9 +12,12 @@
   "author": "David Henderson <flynnhendy@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "react": ">= 16.3.0",
+    "react-dom": ">= 16.3.0",
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
     "@storybook/addon-actions": "^5.2.5",
     "@storybook/addon-centered": "^5.2.5",
     "@storybook/addon-knobs": "^5.2.5",
@@ -28,7 +31,7 @@
   },
   "dependencies": {
     "styled-components": "^4.4.1"
-  },
+  },  
   "peerDependencies": {
     "react": ">= 16.3.0",
     "react-dom": ">= 16.3.0"

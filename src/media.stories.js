@@ -2,7 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { storiesOf } from '@storybook/react'
 import centered from '@storybook/addon-centered/react'
-import media from './index'
+import createMedia from './index'
+
+const media = createMedia({})
 
 storiesOf('media', module)
   .addDecorator(centered)

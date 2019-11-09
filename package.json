@@ -1,0 +1,31 @@
+{
+  "name": "stylish-media",
+  "version": "0.0.1",
+  "description": "A media query plugin for styled-components to allow a better shorthand when styling using media queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "David Henderson <flynnhendy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-centered": "^5.2.5",
+    "@storybook/addon-knobs": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
+    "babel-loader": "^8.0.6",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "styled-components": "^4.4.1"
+  },
+  "peerDependencies": {
+    "react": ">= 16.3.0",
+    "react-dom": ">= 16.3.0"
+  }
+}

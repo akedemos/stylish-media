@@ -39,7 +39,7 @@ An example of what using this library looks like:
 ```
   import { createMedia } from 'stylish-media' 
 
-  const media = createMedia()
+  const media = createMedia({})
 
   const RedOnMediumDevices = styled.div`
       width: 100px;

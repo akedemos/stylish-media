@@ -38,5 +38,6 @@
   "peerDependencies": {
     "react": ">= 16.3.0",
     "react-dom": ">= 16.3.0"
-  }
+  },
+  "typings": "./src/index.d.ts"
 }
